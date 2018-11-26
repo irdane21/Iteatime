@@ -1,4 +1,5 @@
-@import url("components/form.css");
+@import url("components/navbar.css");
+@import url("components/banner.css");
 
 body {
   margin: 0;
@@ -10,29 +11,49 @@ h1 {
   font-family: "Raleway", sans-serif;
   margin-bottom: 30px;
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 36px;
   font-weight: 600;
+  color: #FFF;
 }
 
 #logo {
   width: 100px;
   height: 100px;
-  background-image: url('./img/logo.png')
 }
 
 header {
   width: 100%;
   background: #FFF;
 }
+.home {
+  display: flex;
+}
+.contact {
+  flex-grow: 1;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
 ul {
   list-style: none;
   padding-inline-start: 0px;
   display: flex;
-  li {
-  }
 }
 li a {
   text-decoration: none;
   margin: 0.2rem;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.wrappper {
+  width: 100%;
+  background: white;
 }
