@@ -2,13 +2,37 @@
 
 body {
   margin: 0;
-  font-family: "Varela", sans-serif;
-  margin-top: 50px;
+  font-family: "Roboto", serif;
+  margin: 0;
+  padding: 0;
 }
 h1 {
-  font-family: "Varela", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-bottom: 30px;
   margin-top: 20px;
   font-size: 24px;
   font-weight: 600;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  background-image: url('./img/logo.png')
+}
+
+header {
+  width: 100%;
+  background: #FFF;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+  display: flex;
+  li {
+  }
+}
+li a {
+  text-decoration: none;
+  margin: 0.2rem;
 }
