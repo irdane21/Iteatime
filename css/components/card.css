@@ -1,0 +1,32 @@
+.card-image {
+  height: 400px;
+  width: 100%;
+  background-image: url('../../img/alaune.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.card-text {
+  padding: 0.5rem;
+  text-align: justify;
+}
+
+.accroche1 {
+  padding: 0.5rem 1.5rem;
+  background: rgba(32, 195, 164, 1);
+  color: white;
+  border-radius: 1px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.accroche2 {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
