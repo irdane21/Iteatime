@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -26,6 +26,7 @@ h2 {
   color: #FFF;
 }
 p {
+  font-family: "Roboto", sans-serif;
   color: #2C2D2D;
 }
 
