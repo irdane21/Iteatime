@@ -1,0 +1,33 @@
+.social-networks {
+  background: #59B5D4;
+  height: 120px;
+}
+
+.unsocial {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  transition: 0.3 ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.unsocial p {
+  color: white;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.unsocial:hover {
+  transition: 0.3 ease;
+  background:#389CB0;
+}
+
+.icone {
+  font-size: 40px;
+}
+
+.col {
+  padding: 0;
+}

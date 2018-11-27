@@ -3,6 +3,7 @@
 @import url("components/card.css");
 @import url("components/hexagone.css");
 @import url("components/form.css");
+@import url("components/social.css");
 
 body {
   margin: 0;
