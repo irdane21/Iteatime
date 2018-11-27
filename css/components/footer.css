@@ -1,0 +1,56 @@
+footer {
+  width: 100%;
+  background: #343635;
+  min-height: 400px;
+}
+
+footer p {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.don {
+  border: 2px solid white;
+  background: transparent;
+  width: 80%;
+  height: 2rem;
+  border-radius: 2px;
+  color: white;
+  transition: 0.3 ease;
+  margin-top: 1.5rem;
+}
+.don:hover {
+  background: white;
+  color: #18C6A4;
+}
+
+.margin-col {
+  margin-top: 3rem;
+}
+
+.small-divider {
+  width: 20%;
+  height: 1px;
+  background: white;
+}
+
+.footer-image {
+  margin-top: 2rem;
+  border-radius: 2px;
+}
+
+.footer-link {
+  color: white;
+  transition: 0.3 ease;
+}
+.footer-link:hover {
+  color: #18C6A4;
+  transition: 0.3 ease;
+}
+.margin-top {
+  margin-top: 1rem;
+}
+
+iframe {
+  margin-top: 1rem;
+}

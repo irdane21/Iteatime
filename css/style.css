@@ -4,6 +4,7 @@
 @import url("components/hexagone.css");
 @import url("components/form.css");
 @import url("components/social.css");
+@import url("components/footer.css");
 
 body {
   margin: 0;
@@ -53,10 +54,12 @@ header {
   justify-content: flex-end;
 }
 
+.dispflex {
+  display: inherit;
+}
 ul {
   list-style: none;
   padding-inline-start: 0px;
-  display: flex;
 }
 li a {
   text-decoration: none;
