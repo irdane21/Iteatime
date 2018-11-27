@@ -146,7 +146,7 @@ a:hover {
 .wrapper-grey {
   width: 100%;
   background: #F0F0F0;
-  min-height: 550px;
+  min-height: 750px;
 }
 
 .wrapper-dark-grey {
@@ -195,21 +195,15 @@ a:hover {
   margin-bottom: 0;
 }
 
-.test {
-  width: 100%;
-  height: 80vh;
-  background: #C3C3C3;
-  padding: 3rem;
-}
 
-.carretest {
-  width: 200px;
-  height: 200px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-}
+
+
+
+
+
+
+
+
 
 
 

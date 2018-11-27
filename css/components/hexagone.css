@@ -1,71 +1,146 @@
-#hexagon {
-  width: 180px;
-  height: 80px;
+.carretest {
+  width: 200px;
+  height: 200px;
   position: relative;
+}
+.lee1 {
+  background: url("../../img/lee1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  transition: 0.3 ease;
-  background: #C3C3C3;
 }
-#hexagon:hover {
-  transition: 0.3 ease;
+.lee1:hover {
+  background: linear-gradient(rgba(24, 198, 164, 0.5), rgba(24, 198, 164, 0.5)), url("../../img/lee1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lee2 {
+  background: url("../../img/lee2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lee2:hover {
+  background: linear-gradient(rgba(24, 198, 164, 0.5), rgba(24, 198, 164, 0.5)), url("../../img/lee2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lee3 {
+  background: url("../../img/lee3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lee3:hover {
+  background: linear-gradient(rgba(24, 198, 164, 0.5), rgba(24, 198, 164, 0.5)), url("../../img/lee3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lee4 {
+  background: url("../../img/lee4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lee4:hover {
+  background: linear-gradient(rgba(24, 198, 164, 0.5), rgba(24, 198, 164, 0.5)), url("../../img/lee4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lee5 {
+  background: url("../../img/lee5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lee5:hover {
+  background: linear-gradient(rgba(24, 198, 164, 0.5), rgba(24, 198, 164, 0.5)), url("../../img/lee5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#hexagon:before {
-  content: "";
+.haut-gauche {
+  height: 50px;
+  width: 150px;
+  background: #F0F0F0;
+  transform: skew(25deg, -25deg);
+  transform-origin: bottom left;
   position: absolute;
-  top: -60px;
+  top: 0;
   left: 0;
-  width: 0;
-  height: 0;
-  border-left: 90px solid transparent;
-  border-right: 90px solid transparent;
-  border-bottom: 60px solid #C3C3C3;
 }
-#hexagon:after {
-  content: "";
+.haut-droit {
+  height: 50px;
+  width: 150px;
+  background: #F0F0F0;
+  transform: skew(-25deg, 25deg);
+  transform-origin: bottom right;
   position: absolute;
-  bottom: -60px;
+  top: 0;
+  right: 0;
+}
+.bas-droit {
+  height: 50px;
+  width: 150px;
+  background: #F0F0F0;
+  transform: skew(25deg, -25deg);
+  transform-origin: top right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.bas-gauche {
+  height: 50px;
+  width: 150px;
+  background: #F0F0F0;
+  transform: skew(-25deg, 25deg);
+  transform-origin: top left;
+  position: absolute;
+  bottom: 0;
   left: 0;
-  width: 0;
-  height: 0;
-  border-left: 90px solid transparent;
-  border-right: 90px solid transparent;
-  border-top: 60px solid #C3C3C3;
+}
+
+.center-text {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  text-align: center;
+}
+.center-text p {
+  color: white;
+  opacity: 0;
+}
+
+.divider-test {
+  width: 100px;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 2rem;
+  opacity: 0;
+}
+
+.carretest:hover .center-text p {
+  opacity: 1;
+}
+
+.carretest:hover .divider-test {
+  opacity: 1;
+}
+
+.pad {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+
 }
 
 .hexagons2 {
-  margin-top: 70px;
+  margin-top: 30px;
 }
 .hexagons1{
   margin-top: 100px;
 }
-
-/*.hex1 {
-  background-image: url('../../img/lee1.jpg');
-}
-.hex2 {
-  background-image: url('../../img/lee2.jpg');
-}
-.hex3 {
-  background-image: url('../../img/lee3.jpg');
-}
-.hex4 {
-  background-image: url('../../img/lee4.jpg');
-}
-.hex5 {
-  background-image: url('../../img/lee5.jpg');
-}
-.hex6 {
-  background-image: url('../../img/lee6.jpg');
-}
-.hex7 {
-  background-image: url('../../img/lee1.jpg');
-}
-.hex8 {
-  background-image: url('../../img/lee2.jpg');
-}
-.hex9 {
-  background-image: url('../../img/lee3.jpg');
-}*/
