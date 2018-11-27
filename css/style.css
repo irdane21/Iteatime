@@ -2,6 +2,7 @@
 @import url("components/banner.css");
 @import url("components/card.css");
 @import url("components/hexagone.css");
+@import url("components/form.css");
 
 body {
   margin: 0;
@@ -141,13 +142,15 @@ a:hover {
   width: 100%;
   height: 75vh;
   background: #F0F0F0;
+  min-height: 550px;
 }
 
 .wrapper-dark-grey {
   background: #E2E2E2;
   width: 100%;
-  height: 50vh;
+  height: 40vh;
   padding: 2rem 0;
+  min-height: 300px;
 }
 
 .small-head {
@@ -155,11 +158,28 @@ a:hover {
   border-radius: 2px;
   padding: 0.5rem 1rem;
   width: 170px;
+
 }
 .small-head p {
   color: white;
   margin: 0;
 }
-.fa-file-download {
-  font-size: 30px;
+.fa-file-alt {
+  font-size: 3rem;
+  color: #11C7A4;
+  margin: 0 0.5rem;
+}
+.doc {
+  display: flex;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+.liens {
+  transition: 0.3 ease;
+  padding: 0 0.5rem;
+}
+
+.liens:hover p {
+  transition: 0.3 ease;
+  color: #11C7A4;
 }
