@@ -1,11 +1,11 @@
 .social-networks {
   background: #59B5D4;
-  height: 120px;
+  min-height: 120px;
 }
 
 .unsocial {
   width: 100%;
-  height: 100%;
+  height: 120px;
   background: transparent;
   transition: 0.3 ease;
   display: flex;

@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-position: center;
   transition: 0.3 ease;
+  background: #C3C3C3;
 }
 #hexagon:hover {
   transition: 0.3 ease;
@@ -41,7 +42,7 @@
   margin-top: 100px;
 }
 
-.hex1 {
+/*.hex1 {
   background-image: url('../../img/lee1.jpg');
 }
 .hex2 {
@@ -67,4 +68,4 @@
 }
 .hex9 {
   background-image: url('../../img/lee3.jpg');
-}
+}*/

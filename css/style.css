@@ -6,6 +6,7 @@
 @import url("components/social.css");
 @import url("components/footer.css");
 
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -144,7 +145,6 @@ a:hover {
 
 .wrapper-grey {
   width: 100%;
-  height: 75vh;
   background: #F0F0F0;
   min-height: 550px;
 }
@@ -152,7 +152,6 @@ a:hover {
 .wrapper-dark-grey {
   background: #E2E2E2;
   width: 100%;
-  height: 40vh;
   padding: 2rem 0;
   min-height: 300px;
 }
@@ -187,3 +186,34 @@ a:hover {
   transition: 0.3 ease;
   color: #11C7A4;
 }
+.no-margin-bottom {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.test {
+  width: 100%;
+  height: 80vh;
+  background: #C3C3C3;
+  padding: 3rem;
+}
+
+.carretest {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+
+
+
+
+
+
