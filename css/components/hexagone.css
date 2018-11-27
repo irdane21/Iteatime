@@ -1,28 +1,70 @@
 #hexagon {
-  width: 100px;
-  height: 55px;
-  background: red;
+  width: 180px;
+  height: 80px;
   position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.3 ease;
 }
+#hexagon:hover {
+  transition: 0.3 ease;
+}
+
 #hexagon:before {
   content: "";
   position: absolute;
-  top: -25px;
+  top: -60px;
   left: 0;
   width: 0;
   height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-bottom: 25px solid red;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 60px solid #C3C3C3;
 }
 #hexagon:after {
   content: "";
   position: absolute;
-  bottom: -25px;
+  bottom: -60px;
   left: 0;
   width: 0;
   height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 25px solid red;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-top: 60px solid #C3C3C3;
+}
+
+.hexagons2 {
+  margin-top: 70px;
+}
+.hexagons1{
+  margin-top: 100px;
+}
+
+.hex1 {
+  background-image: url('../../img/lee1.jpg');
+}
+.hex2 {
+  background-image: url('../../img/lee2.jpg');
+}
+.hex3 {
+  background-image: url('../../img/lee3.jpg');
+}
+.hex4 {
+  background-image: url('../../img/lee4.jpg');
+}
+.hex5 {
+  background-image: url('../../img/lee5.jpg');
+}
+.hex6 {
+  background-image: url('../../img/lee6.jpg');
+}
+.hex7 {
+  background-image: url('../../img/lee1.jpg');
+}
+.hex8 {
+  background-image: url('../../img/lee2.jpg');
+}
+.hex9 {
+  background-image: url('../../img/lee3.jpg');
 }
